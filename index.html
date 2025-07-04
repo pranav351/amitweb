@@ -68,7 +68,7 @@
 
         <section class="contact-form">
           <h2>Contact Me</h2>
-          <form>
+          <!--<form>
             <div class="form-row">
               <div class="form-group">
                 <label for="first-name">First Name</label>
@@ -95,7 +95,26 @@
             <div class="form-group center">
               <button type="submit">SEND</button>
             </div>
+          </form> -->
+
+ <form action="https://formspree.io/f/xanjzwdw" method="POST">
+            <input type="hidden" name="_captcha" value="false" />
+
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" required />
+
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" required />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" required />
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" />
+
+            <button type="submit">SEND</button>
           </form>
+
         </section>
       </div>
     </div>
